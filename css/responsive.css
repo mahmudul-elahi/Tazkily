@@ -1,0 +1,374 @@
+@media screen and (max-width: 575px) {
+  /* ===============================================
+      Navbar-Section-Start
+  =================================================*/
+  #navbar {
+    padding: 15px 0;
+  }
+
+  #navbar ul {
+    gap: 0;
+  }
+  #navbar .navbar-collapse {
+    padding: 15px 20px;
+    background: #fff;
+  }
+  /* ===============================================
+      Navbar-Section-End
+  =================================================*/
+
+  /* ===============================================
+      Banner-Section-Start
+  =================================================*/
+  #banner {
+    padding: 97px 0 470px;
+  }
+
+  #banner .banner-text h1 {
+    font-size: 34px;
+    line-height: 41px;
+    padding-bottom: 10px;
+  }
+  #banner .banner-text p {
+    font-size: 16px;
+    line-height: 28px;
+    padding-bottom: 48px;
+    padding-right: 0;
+  }
+  #banner .banner-btn a {
+    font-size: 14px;
+  }
+
+  #banner .banner-btn {
+    gap: 0;
+  }
+
+  #banner .banner-img {
+    top: 40%;
+  }
+  #banner .banner-img img {
+    width: 340px;
+    height: auto;
+  }
+  #banner .shape-wave {
+    bottom: 0;
+  }
+  /* ===============================================
+      Banner-Section-End
+  =================================================*/
+
+  /* ===============================================
+      Contact-Section-Start
+  =================================================*/
+  #contact {
+    padding: 80px 0;
+  }
+  #contact .contact-text {
+    padding: 0;
+    padding-bottom: 50px;
+  }
+  #contact .contact-text h3 {
+    font-size: 35px;
+    line-height: 40px;
+    padding-bottom: 10px;
+  }
+
+  #contact .contact-text p {
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 45px;
+  }
+  #contact .contact-text a {
+    font-size: 16px;
+  }
+  /* ===============================================
+      Contact-Section-End
+  =================================================*/
+
+  /* ===============================================
+      Features-Section-Start
+  =================================================*/
+  #features {
+    padding-bottom: 110px;
+  }
+  #features .features-text h3 {
+    font-size: 35px;
+    line-height: 40px;
+    padding-bottom: 10px;
+  }
+
+  #features .features-text p {
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 30px;
+  }
+
+  #features .items {
+    padding: 0;
+  }
+
+  #features .items .item:nth-child(odd) {
+    padding-right: 0;
+  }
+
+  #features .items .item:nth-child(even) {
+    padding-left: 0;
+  }
+
+  #features .items .text {
+    padding: 14px 13px 12px;
+  }
+
+  #features .items .text p {
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  #features .items .text h3 {
+    font-size: 11px;
+  }
+
+  #features .items .text h6 {
+    font-size: 7px;
+  }
+
+  #features .items .text::before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    height: 20px;
+    width: 20px;
+    background: #fff;
+  }
+
+  #features .items .text.left::before {
+    left: -18px;
+  }
+  #features .items .text.right::before {
+    right: -18px;
+  }
+  /* ===============================================
+      Features-Section-End
+  =================================================*/
+
+  /* ===============================================
+      Price-Section-Start
+  =================================================*/
+  #price {
+    padding: 102px 0 103px;
+  }
+  #price .price-text h3 {
+    font-size: 28px;
+    line-height: 34px;
+    padding-bottom: 10px;
+  }
+
+  #price .price-text p {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0 15px;
+    padding-bottom: 30px;
+  }
+
+  #price .price-card {
+    margin-bottom: 30px;
+  }
+
+  #price .shape.wave1 {
+    top: -3px;
+  }
+
+  #price .shape.wave2 {
+    bottom: -3px;
+  }
+
+  /* ===============================================
+      Price-Section-End
+  =================================================*/
+
+  /* ===============================================
+      Work-Section-Start
+  =================================================*/
+  #work {
+    padding: 120px 0;
+  }
+
+  #work .work-text h3 {
+    font-size: 28px;
+    line-height: 34px;
+    padding-bottom: 20px;
+  }
+
+  #work .work-text p {
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 50px;
+  }
+
+  #work .work-slider {
+    padding-left: 0px;
+  }
+
+  #work .slick-list {
+    padding: 0 !important;
+  }
+
+  #work .work-slider .items {
+    padding: 5px;
+    margin: 15px 0;
+  }
+
+  #work .items img {
+    height: 136px;
+  }
+
+  #work .work-slider .items .right .text p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #work .work-slider .items .right .text h5 {
+    font-size: 12px;
+    line-height: 19px;
+  }
+
+  #work .work-slider .items .left .date h6 {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  /* ===============================================
+      Work-Section-End
+  =================================================*/
+
+  /* ===============================================
+      Brand-Section-Start
+  =================================================*/
+  #brand {
+    padding-bottom: 120px;
+  }
+
+  #brand .brand-text h3 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  #brand .outline {
+    height: 33px;
+    border: 3.5px solid #eef6fe;
+  }
+
+  #brand .outline .icon {
+    height: 37.5px;
+    width: 37.5px;
+  }
+  #brand .outline .icon img {
+    height: 25.5px;
+    width: 25.5px;
+  }
+
+  #brand .outline .outline-shape {
+    height: calc(100% + 18px);
+  }
+
+  #brand .outline .outline-shape.shape1 {
+    top: -9px;
+    left: -13px;
+  }
+
+  #brand .outline .outline-shape.shape2 {
+    top: -9px;
+    right: -13px;
+  }
+  /* ===============================================
+      Brand-Section-End
+  =================================================*/
+
+  /* ===============================================
+      Founder-Section-Start
+  =================================================*/
+  #founder {
+    padding: 86px 0 100px;
+  }
+  #founder .founder-text h3 {
+    font-size: 28px;
+    line-height: 34px;
+    padding-bottom: 15px;
+  }
+
+  #founder .founder-text p {
+    font-size: 16px;
+    line-height: 26px;
+    padding-right: 0;
+    padding-bottom: 40px;
+  }
+
+  #founder .founder-slider .arrow.right {
+    right: calc(15% - 40px);
+  }
+
+  #founder .items {
+    margin: 15px 0px;
+  }
+
+  #founder .slick-list {
+    padding: 0 !important;
+  }
+
+  #founder .items .text p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  #founder .items .author h6 {
+    font-size: 16px;
+  }
+
+  #founder .shape-wave {
+    top: -3px;
+  }
+  /* ===============================================
+      Founder-Section-End
+  =================================================*/
+
+  /* ===============================================
+    Footer-Section-Start
+  =================================================*/
+  #footer .icon {
+    padding-bottom: 25px;
+  }
+  #footer .text p {
+    font-size: 16px;
+  }
+
+  #footer .text1 {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+  }
+
+  #footer .text1 h3 {
+    font-size: 18px;
+  }
+
+  #footer .text1 ul li a {
+    font-size: 16px;
+  }
+  #footer {
+    padding: 62px 0 39px;
+    background: #260055;
+  }
+  #footer .copyright {
+    padding-top: 10px;
+  }
+
+  svg {
+    position: relative;
+    display: block;
+  }
+
+  /* ===============================================
+    Footer-Section-End
+  =================================================*/
+}
